@@ -1,3 +1,5 @@
+**ARCHIVE NOTE: there is a community-maintained version of this repository at https://github.com/RDFLib/VocExcel which should be used in preference to this one**
+
 .. image:: https://surroundaustralia.com/themes/custom/surround_australia/surround-logo-dark.svg
 
 
