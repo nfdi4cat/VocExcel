@@ -8,15 +8,17 @@ version = "0.4.0"
 description = """Another Excel to RDF converter for SKOS vocabs, \
   but one that includes profile-based validation of results."""
 repository = "https://github.com/nfdi4cat/voc4cat-tool/"
+
+# Authors sorted by number of ommits as of 2023-03-12
 authors = [
   "Peter Philips <peter.philips@surroundaustralia.com>",
+  "Nicholas Car <nicholas.car@surroundaustralia.com>",
   "David Linke <david.linke@catalysis.de>",
   "Jamie Feiss <jamie.feiss@surroundaustralia.com>",
 ]
 maintainers = [
   "David Linke <david.linke@catalysis.de>",
 ]
-
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python",
