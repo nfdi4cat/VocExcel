@@ -39,9 +39,10 @@ jobs:
     - name: Install dependencies
       run: |
         pipx install poetry
+        poetry --version
         python -VV
         python -m pip install --upgrade pip setuptools wheel
-        poetry install
+        poetry install --with dev
 
     - name: Run tests & collect coverage
       run: |
