@@ -45,7 +45,7 @@ jobs:
 
     - name: Run tests & collect coverage
       run: |
-        poetry run -m coverage run -p -m pytest
+        poetry run coverage run -p -m pytest
 
     - name: Upload coverage data
       uses: actions/upload-artifact@v3
