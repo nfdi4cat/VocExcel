@@ -39,14 +39,13 @@ jobs:
     - name: Install dependencies
       run: |
         pipx install poetry
-        poetry --version
         python -VV
         python -m pip install --upgrade pip setuptools wheel
-        poetry install --with dev
+        poetry install
 
     - name: Run tests & collect coverage
       run: |
-        python -m coverage run -p -m pytest
+        poetry run -m coverage run -p -m pytest
 
     - name: Upload coverage data
       uses: actions/upload-artifact@v3
