@@ -2,8 +2,11 @@
 name = "vocexcel"
 version = "0.4.0"
 description = """Another Excel to RDF converter for SKOS vocabs, \
-  but one that include profile-based validation of results."""
-authors = ["peterphilips <peter.philips@surroundaustralia.com>"]
+  but one that includes profile-based validation of results."""
+authors = [
+  "peterphilips <peter.philips@surroundaustralia.com>",
+  "dalito <david.linke@catalysis.de>",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -15,11 +18,10 @@ dateutils = "^0.6.12"
 colorama = "^0.4.4"
 Pillow = "^9.1.0"
 pytest = "^7.1.2"
-setuptools = "^62.3.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.1"
-black = "^22.1.0"
+black = "^23.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
