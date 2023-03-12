@@ -5,16 +5,17 @@ from googleapiclient.discovery import build
 from pydantic import ValidationError
 
 try:
-    import models, profiles
-    from utils import split_and_tidy, ConversionError
-    from convert import validate_with_profile, log_msg
+    import models
+    import profiles
+    from convert import log_msg, validate_with_profile
+    from utils import ConversionError, split_and_tidy
 except:
     import sys
 
     sys.path.append("..")
     from vocexcel import models, profiles
-    from vocexcel.convert import validate_with_profile, log_msg
-    from vocexcel.utils import split_and_tidy, ConversionError
+    from vocexcel.convert import log_msg, validate_with_profile
+    from vocexcel.utils import ConversionError, split_and_tidy
 
 ACCEPTED_TEMPLATE_VERSIONS = ["0.4.3"]
 SPREADSHEET_ID = None

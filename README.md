@@ -105,14 +105,14 @@ All command line options can be printed out by the Windows, Linux/Unix/Mac versi
 It will print something like this with any updates actually available in the tool:
 
 ```
-usage: vocexcel [-h] [-v] [--listprofiles] [--validate] [-p PROFILE] 
+usage: vocexcel [-h] [-v] [--listprofiles] [--validate] [-p PROFILE]
                 [--outputtype {file,string}] [-o OUTPUTFILE]
                 [--outputformat {turtle,xml,json-ld}] [-s SHEET] [-t TEMPLATEFILE]
                 [-e ERRORLEVEL] [-m MESSAGELEVEL] [-l LOGFILE]
                 [file_to_convert]
 
 positional arguments:
-  file_to_convert       The Excel file to convert to a SKOS vocabulary in RDF 
+  file_to_convert       The Excel file to convert to a SKOS vocabulary in RDF
                         or an RDF file to convert to an Excel file (default: None)
 
 options:
@@ -120,15 +120,15 @@ options:
   -v, --version         The version of this copy of VocExcel. (default: False)
   --listprofiles        This flag, if set, must be the only flag supplied. It will cause the
                         program to list all the vocabulary profiles that this converter,
-                        indicating both their URI and their short token for use with 
+                        indicating both their URI and their short token for use with
                         the -p (--profile) flag when converting Excel files (default: False)
   --validate            Validate output file (default: False)
   -p PROFILE, --profile PROFILE
                         A profile - a specified information model - for a vocabulary. This tool
-                        understands several profiles and you can choose which one you want to 
-                        convert the Excel file according to. The list of profiles - URIs and 
+                        understands several profiles and you can choose which one you want to
+                        convert the Excel file according to. The list of profiles - URIs and
                         their corresponding tokens - supported by VocExcel, can be found
-                        by running the program with the flag -lp or --listprofiles. 
+                        by running the program with the flag -lp or --listprofiles.
                         (default: vocpub)
   --outputtype {file,string}
                         The format of the vocabulary output. (default: file)
@@ -141,7 +141,7 @@ options:
                         The sheet within the target Excel Workbook to process.
                         (default: vocabulary)
   -t TEMPLATEFILE, --templatefile TEMPLATEFILE
-                        An optionally-provided Excel-template file to be used in 
+                        An optionally-provided Excel-template file to be used in
                         SKOS-> Excel conversion. (default: None)
   -e ERRORLEVEL, --errorlevel ERRORLEVEL
                         The minimum severity level which fails validation (default: 1)
@@ -154,7 +154,7 @@ options:
 ## License
 
 This code is licensed using the GPL v3 licence. See the [LICENSE
-file](LICENSE) for the deed. 
+file](LICENSE) for the deed.
 
 We would prefer to change to a non-infecting liberal license like MIT
 but so far the creators of the original VocExcel have not commented

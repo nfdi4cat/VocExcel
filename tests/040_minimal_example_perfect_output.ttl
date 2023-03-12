@@ -20,4 +20,3 @@ cs: a skos:ConceptScheme ;
     skos:definition "Example Description"@en ;
     skos:hasTopConcept <http://example/org/example1> ;
     skos:prefLabel "Example Title"@en .
-

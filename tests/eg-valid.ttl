@@ -378,4 +378,3 @@ cs: a skos:ConceptScheme ;
         <https://linked.data.gov.au/def/induration-style/indurated_material> ;
     skos:prefLabel "Induration Style - Test"@en ;
     dcat:contactPoint "Ollie Raymond" .
-
