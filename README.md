@@ -153,11 +153,7 @@ options:
 
 ## License
 
-This code is licensed using the GPL v3 licence. See the [LICENSE
+This code is licensed using the BSD-3-Clause license. See the [LICENSE
 file](LICENSE) for the deed.
-
-We would prefer to change to a non-infecting liberal license like MIT
-but so far the creators of the original VocExcel have not commented
-(see https://github.com/RDFLib/VocExcel/issues/2)
 
 Note that Excel is trademark/property of Microsoft.

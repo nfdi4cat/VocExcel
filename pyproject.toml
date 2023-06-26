@@ -9,7 +9,7 @@ description = """Another Excel to RDF converter for SKOS vocabs, \
   but one that includes profile-based validation of results."""
 repository = "https://github.com/nfdi4cat/voc4cat-tool/"
 
-# Authors sorted by number of ommits as of 2023-03-12
+# Authors sorted by number of commits as of 2023-03-12
 authors = [
   "Peter Philips <peter.philips@surroundaustralia.com>",
   "Nicholas Car <nicholas.car@surroundaustralia.com>",
@@ -24,7 +24,7 @@ classifiers = [
   "Programming Language :: Python",
   "Environment :: Console",
   "Intended Audience :: Science/Research",
-  "License :: OSI Approved :: MIT License",
+  "License :: OSI Approved :: BSD-3-Clause",
   "Operating System :: POSIX :: Linux",
   "Operating System :: Microsoft :: Windows",
   "Programming Language :: Python :: 3.8",
@@ -43,6 +43,7 @@ dateutils = "^0.6.12"
 colorama = "^0.4.4"
 Pillow = "^9.1.0"
 pytest = "^7.1.2"
+setuptools = "^68.0.0"  # missed requirement for pyshacl - https://github.com/RDFLib/pySHACL/issues/188
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.0.1"
