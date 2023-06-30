@@ -21,7 +21,7 @@ Use one Excel workbook per vocabulary.
 
 Several forms of use of this tool do not require any installation - see the next section. However, to run the tool as a Python script or a module, you will need to:
 
-1. have Python (3.6+) installed on your computer
+1. have Python (3.8+) installed on your computer
 2. create a poetry environment
 3. install the necessary packages in that environment
    : - when running a poetry environment, some IDE's like python will automatically install the pyproject.toml else, there would have to be a manual install with something like 'poetry install'
@@ -41,19 +41,19 @@ Methods 1 & 2 all use the same options. See the section [Command Line Arguments]
 
 #### 1. Windows command line
 
-There will soon be an Windows EXE file, `vocexcel.exe`, in the `vocexcel/bin/` folder that can be used like this:
+After installation an executable file, `vocexcel.exe`, is available in the `vocexcel/bin/` folder. It can be used like this:
 
-```
-c:\\Users\\user> vocexcel.exe vocabulary-x.xlsx
+```cmd
+c:\Users\user> vocexcel.exe vocabulary-x.xlsx
 ```
 
-The command above will generate either a vocabulary RDF file in the same directory as the input Excel file, or an Excel file from the RDF file, based on file endings.
+This command will generate either a vocabulary RDF file in the same directory as the input Excel file, or an Excel file from the RDF file, based on file endings.
 
 #### 2. Shell command line script (Linux/Unix/Mac)
 
 The script `vocexcel/bin/vocexcel.sh` can be run as a shell script on Linux/Unix/Mac with the same options as the Windows EXE program.
 
-```
+```bash
 ~$ sh vocexcel.sh vocabulary-x.xlsx
 ```
 
@@ -65,7 +65,7 @@ The script will work out, based on file endings, if this is an Excel to RDF or a
 
 The Python script `convert.py` in the `vocexcel/` directory can be run on Windows/Unix/Linux/Mac systems like this:
 
-```
+```bash
 ~$ python convert.py vocabulary-x.xlsx
 ```
 
@@ -75,7 +75,7 @@ As long as a Python environment containing the program's needed modules, listed 
 
 The converter program has two methods that can be called from other Python programs, perhaps as part of a chain of processing, for Excel to RDF and RDF to Excel: `rdf_to_excel()` & `excel_to_rdf()`. For this, you would need code like this:
 
-```
+```python
 from vocexcel import convert
 from pathlib import Path
 
@@ -96,13 +96,13 @@ There are several options for the conversion functions, just see the functions t
 
 All command line options can be printed out by the Windows, Linux/Unix/Mac versions of the tools by specifying `-h` for 'help' like this:
 
-```
+```bash
 > vocexcel.exe -h
 
 ~$ sh vocexcel.sh -h
 ```
 
-It will print something like this with any updates actually available in the tool:
+This will print something like the following:
 
 ```
 usage: vocexcel [-h] [-v] [--listprofiles] [--validate] [-p PROFILE]
@@ -153,7 +153,7 @@ options:
 
 ## License
 
-This code is licensed using the BSD-3-Clause license. See the [LICENSE
+This code is licensed under the BSD-3-Clause license. See the [LICENSE
 file](LICENSE) for the deed.
 
 Note that Excel is trademark/property of Microsoft.
