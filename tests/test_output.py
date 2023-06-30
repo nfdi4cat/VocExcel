@@ -1,7 +1,5 @@
-import sys
 from pathlib import Path
 
-sys.path.append(str(Path(__file__).parent.parent.absolute()))
 from rdflib import URIRef
 from rdflib.namespace import SKOS
 from vocexcel import convert
@@ -33,7 +31,3 @@ def test_example_complex():
             f'The title (preferredLabel) of the "example - complex" sheet vocab in '
             f'the VocExcel-template.ttl is {s} but should be "Particle Type"'
         )
-
-
-if __name__ == "__main__":
-    test_example_complex()
