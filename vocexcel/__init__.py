@@ -1,1 +1,3 @@
-__version__ = "0.4.0"
+from importlib import metadata
+
+__version__ = metadata.version("vocexcel")
