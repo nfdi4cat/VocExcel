@@ -1,7 +1,9 @@
+**This fork is archived!** (2023-07-05) - Some parts/files of this repository were [merged](https://github.com/nfdi4cat/voc4cat-tool/pull/119) into voc4cat-tool including their git-history.
+
 # VocExcel
 
-> ***This is a fork!** The original project (now at [RDFlib/vocexcel](https://github.com/RDFLib/VocExcel)) changed its templates substantially which made it too cumbersome to keep our code and the customized templates compatible.
-> We consider changing the name of this fork in the future (suggestions welcome!).*
+> *This is a fork! The original project (now at [RDFlib/vocexcel](https://github.com/RDFLib/VocExcel)) changed its templates substantially
+> which made it too cumbersome to keep our code and the customized templates compatible.*
 
 VocExcel is another Excel to RDF converter for SKOS vocabs, but one that uses fixed template to achieve particular SKOS profile outcomes!
 
@@ -104,7 +106,7 @@ All command line options can be printed out by the Windows, Linux/Unix/Mac versi
 
 This will print something like the following:
 
-```
+```text
 usage: vocexcel [-h] [-v] [--listprofiles] [--validate] [-p PROFILE]
                 [--outputtype {file,string}] [-o OUTPUTFILE]
                 [--outputformat {turtle,xml,json-ld}] [-s SHEET] [-t TEMPLATEFILE]
