@@ -1,4 +1,4 @@
-**This fork is archived!** (2023-07-05) - Some parts/files of this repository were [merged](https://github.com/nfdi4cat/voc4cat-tool/pull/119) into voc4cat-tool including their git-history.
+**This fork is archived!** (2023-07-05) - Some parts/files of this repository were [merged](https://github.com/nfdi4cat/voc4cat-tool/pull/119) into [NFDI4Cat/voc4cat-tool](https://github.com/nfdi4cat/voc4cat-tool) including their git-history.
 
 # VocExcel
 
